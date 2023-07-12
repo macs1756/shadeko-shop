@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slajdi_dlya_golovnoyi_storinkis",
+  "info": {
+    "singularName": "slajdi-dlya-golovnoyi-storinki",
+    "pluralName": "slajdi-dlya-golovnoyi-storinkis",
+    "displayName": "Слайди для головної сторінки"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "linkConfigurator": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

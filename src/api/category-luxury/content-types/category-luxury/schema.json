@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories_luxury",
+  "info": {
+    "singularName": "category-luxury",
+    "pluralName": "categories-luxury",
+    "displayName": "Люксові категорії"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
